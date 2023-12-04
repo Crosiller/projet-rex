@@ -22,7 +22,24 @@ h1,h2,h3,p,figure,ul{
 *{
     box-sizing: border-box;
 }
-
+/* scrollbar c'est ici */
+*{
+    /* ff */
+    
+    scrollbar-width: thin;
+    scrollbar-color: #7f6ec2 #fff;
+}
+/* webkit */
+*::-webkit-scrollbar{
+    width: 1rem;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 .1rem darkgray;
+}
+::-webkit-scrollbar-thumb {
+    background-color: royalblue;
+    outline: .1rem solid slateblue;
+}
 /*
 ===========================================
 SECTION 2 : THEME CSS 
