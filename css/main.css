@@ -36,14 +36,16 @@ SECTION 2 : THEME CSS
 }
 /* header */
 header {
+    margin-bottom: 5rem;
     background-color: var(--bg-color-header);
     text-align: center;
+    border-radius: 25rem;
     
 }
 header h1 {
     color: aliceblue;
     line-height: 8rem;
-    font-size: 6.5rem;
+    font-size: 3.5rem;
 }
 figure{
     max-width: 62.25rem; 
@@ -85,4 +87,7 @@ footer{
     text-align: center;
     color: var(--letter-color);
     line-height: 4.5rem;
+}
+ion-icon{
+    vertical-align: middle;
 }
