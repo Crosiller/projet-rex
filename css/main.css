@@ -55,18 +55,29 @@ figure{
 figure img {
     display: inline-block;
     max-width: 100%;
+    border-radius: 0.5rem;
 }
 figure figcaption ul{
 line-height: 6rem;
+border-radius: 0.5rem;
 }
 figure figcaption ul li{
 padding: 0 .5rem;
+border-radius: 0.5rem;
 }
 figure figcaption ul.list-movie li:nth-child(2n + 1){ /*1 sur 2 à partir du 1er */
-    background-color: var(--bgcolor-list)
+    background-color: var(--bgcolor-list);
+    border-radius: 0.5rem;
+}
+details{
+    background-color: var(--bgcolor-list);
 }
 details summary{
     line-height: 6rem;
     background-color: var(--bgcolor-list);
     padding-left: .5rem;
+    border-radius: 0.5rem;
+}
+details p{
+    padding: 0 .5rem;
 }
