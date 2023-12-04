@@ -1,22 +1,72 @@
-html {
-    font-size: 62.5%;
+/* 
+===========================================
+SECTION 1 : CSS RESET
+=========================================== */
+html{
+    font-size: 62.5%; /* 16px * 62.5% = 10rem (testé sur calculatrice) */
 }
-body {
-    font: 1.6rem sans-serif;
+body{
+    font: 1.6rem sans-serif; /* 16px en base 10*/
     margin: 0;
-    letter-spacing: 0.1rem;
+    letter-spacing: .1rem; /* = 1px */
     line-height: 1.6;
+    background-color: var(--bg-color-theme);
 }
-h1,
-p,
-ul {
+h1,h2,h3,p,figure,ul{
     margin: 0;
     padding: 0;
+    list-style-type: none;
     font-weight: normal;
-    list-style: none;
 }
-img {
-    display: block;
-    width : 30%;
-    margin: auto;
+*{
+    box-sizing: border-box;
+}
+
+/*
+===========================================
+SECTION 2 : THEME CSS 
+=========================================== */
+:root {
+    --bg-color-theme: #0a0421;
+    --bg-color-header: #0a0421;
+    --bgcolor-list: rgba(85, 85, 85, 0.258);
+    --letter-color: #fff;
+    --lettre-color-default: #ffffff; 
+}
+/* header */
+header {
+    background-color: var(--bg-color-header);
+    text-align: center;
+    background-color: var(--bg-color-theme);
+    
+}
+header h1 {
+    color: aliceblue;
+    line-height: 8rem;
+    font-size: 6,5rem;
+}
+figure{
+    max-width: 62.25rem; 
+    margin: 0 auto; 
+    border: solid .1rem var(--letter-color);
+    padding: 1rem;
+    background-color: var(--letter-color);
+}
+figure img {
+    display: inline-block;
+    max-width: 100%;
+}
+figure figcaption ul{
+line-height: 6rem;
+}
+figure figcaption ul li{
+padding: 0 .5rem;
+}
+figure figcaption ul.list-movie li:nth-child(2n + 1){ /*1 sur 2 à partir du 1er */
+    background-color: var(--bgcolor-list)
+}
+details summary{
+    line-height: 6rem;
+    background-color: var(--bgcolor-list);
+    padding-left: .5rem;
 }
