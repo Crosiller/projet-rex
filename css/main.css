@@ -2,11 +2,12 @@
 ===========================================
 SECTION 1 : CSS RESET
 =========================================== */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap);
 html{
     font-size: 62.5%; /* 16px * 62.5% = 10rem (testé sur calculatrice) */
 }
 body{
-    font: 1.6rem sans-serif; /* 16px en base 10*/
+    font: 1.3rem "Roboto", sans-serif; /* 13px en base 10*/
     margin: 0;
     letter-spacing: .1rem; /* = 1px */
     line-height: 1.6;
