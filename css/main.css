@@ -30,7 +30,7 @@ h1,h2,h3,p,figure,ul{
     scrollbar-color: #7f6ec2 #fff;
 }
 /* webkit */
-*::-webkit-scrollbar{
+::-webkit-scrollbar{
     width: 1rem;
 }
 ::-webkit-scrollbar-track{
