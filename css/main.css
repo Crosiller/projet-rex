@@ -43,7 +43,7 @@ header {
 header h1 {
     color: aliceblue;
     line-height: 8rem;
-    font-size: 6,5rem;
+    font-size: 6.5rem;
 }
 figure{
     max-width: 62.25rem; 
@@ -80,4 +80,9 @@ details summary{
 }
 details p{
     padding: 0 .5rem;
+}
+footer{
+    text-align: center;
+    columns: var(--letter-color);
+    line-height: 4.5rem;
 }
