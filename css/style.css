@@ -69,7 +69,7 @@ ion-icon{
     vertical-align: middle;
 }
 /* media queris*/
-@media screen and (max-width : 120rem;) {
+@media screen and (max-width : 120rem) {
     figure figcaption ul{
         line-height: 6rem;
     }
