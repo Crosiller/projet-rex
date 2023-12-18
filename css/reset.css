@@ -5,7 +5,7 @@ SECTION 1 : CSS RESET
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap);
 html{
     font-size: 62.5%; /* 16px * 62.5% = 10rem (testé sur calculatrice) */
-    background: url(/asset/1443174.jpg)no-repeat fixed center center / cover;
+    background:linear-gradient(to top,rgba(0,0,0,.6) 40%,rgba(0,0,0,.6) 40%), url(/asset/1443174.jpg)no-repeat fixed center center / cover;;
 }
 body{
     font: 1.3rem "Roboto", sans-serif; /* 13px en base 10*/
