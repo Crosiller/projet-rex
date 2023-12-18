@@ -60,6 +60,11 @@ details summary{
 details p{
     padding: 0 .5rem;
 }
+@media screen and (min-width: 80rem) {
+   figure figcaption ul{
+    line-height: 3.5rem;
+   } 
+}
 footer{
     text-align: center;
     color: var(--letter-color);
@@ -69,7 +74,7 @@ ion-icon{
     vertical-align: middle;
 }
 /* media queris*/
-@media screen and (max-width : 120rem) {
+@media screen and (max-width : 10rem) {
     figure figcaption ul{
         line-height: 6rem;
     }
