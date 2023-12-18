@@ -3,6 +3,7 @@
 ===========================================
 SECTION 2 : THEME CSS 
 =========================================== */
+@import url("./reset.css");
 :root {
     --bg-color-theme: #0a0421;
     --bg-color-header: #0c042d;
