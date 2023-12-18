@@ -68,3 +68,12 @@ footer{
 ion-icon{
     vertical-align: middle;
 }
+/* media queris*/
+@media screen and (max-width : 90rem;) {
+    figure figcaption ul{
+        line-height:3.5rem;
+    }
+    details p{
+        text-align: justify;
+    }
+}
