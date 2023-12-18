@@ -6,7 +6,7 @@ SECTION 2 : THEME CSS
 @import url("./reset.css");
 :root {
     --bg-color-theme: #0a0421;
-    --bg-color-header: #0c042d;
+    --bg-color-header: #2a292e;
     --bgcolor-list: rgba(85, 85, 85, 0.258);
     --letter-color: #fff;
     --lettre-color-default: #ffffff; 
@@ -14,7 +14,7 @@ SECTION 2 : THEME CSS
 /* header */
 header {
     margin-bottom: 5rem;
-    background-color: var(--bg-color-header);
+    /* background-color: var(--bg-color-header); */
     text-align: center;
     border-radius: 25rem;
     
